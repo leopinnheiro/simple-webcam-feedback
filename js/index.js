@@ -33,8 +33,8 @@ button.addEventListener('click', async (e) => {
 function buttonStatusUpdate() {
   const status = button.classList.contains('in-feedback');
   if (!status) {
-    button.innerHTML = 'Start feedback'
+    button.innerHTML = 'Start'
   } else {
-    button.innerHTML = 'Stop feedback'
+    button.innerHTML = 'Stop'
   }
 }
